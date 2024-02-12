@@ -1,5 +1,6 @@
 *** Settings ***
 Resource            ../base/base.robot
+Variables           ../SearchPage/search-locator.yaml
 *** Keywords ***
 Enter Valid Flight Number
     Wait Until Page Contains Element    locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]

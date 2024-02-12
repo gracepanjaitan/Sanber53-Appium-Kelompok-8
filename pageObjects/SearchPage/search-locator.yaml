@@ -1,0 +1,2 @@
+flight_number_field: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+search_btn_on_search: //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
