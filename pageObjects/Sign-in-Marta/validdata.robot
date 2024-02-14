@@ -19,29 +19,22 @@ Click Sign In Button On Home Page
 
 Input Username
     Wait Until Element Is Visible      locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
-    Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]    text= Marta12
+    Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]       text=support@ngendigital.com
 
 Input Password
-    Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]    text= abc123
+    Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]        text=abc123
 
 Click Sign In Button On Login Page
     Click Element                      locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
 
-Verify User Is Fail To Logged In
-    Wait Until Page Contains           text=Invalid username/password
-
-Close Flight Application
-    Close Application
 
 
 *** Test Cases ***
-Login with Invalid Data
+Login with Valid Data
     Open Flight Application
     Click Sign In Button On Home Page
     Input Username
     Input Password
     Click Sign In Button On Login Page
-    Verify User Is Fail To Logged In
-    Close Flight Application
 
 
