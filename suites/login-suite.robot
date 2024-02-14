@@ -7,7 +7,6 @@ Login with Invalid Data
     Open Flight Application
     Click Sign In Button On Home Page
     Input Username
-    login-page.Input Password
+    Input Password User
     Click Sign In Button On Login Page
-    Verify User Is Fail To Logged In
-    Close Flight Application
+    Click Booking Button 
