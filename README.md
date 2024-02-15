@@ -13,6 +13,7 @@ Nama Anggota Kelompok dan Pembagian tugas:
 Test Cases Sheets:
 
 1. Search :https://docs.google.com/spreadsheets/d/1DPIStEkfUQYuuY2lzh6UeigsUXD3vR7xb5Jw18zo3FI/edit?usp=sharing
+2. Sign-In : https://docs.google.com/spreadsheets/d/1wvYXW4JwtBUoU5wLkrDBwBGlT7h1w7IMwutcnjsVmYY/edit#gid=0
 
 
 Link Record:
@@ -29,6 +30,10 @@ Link Record:
 
 2. TC2 : Sign-in With valid data
    https://drive.google.com/file/d/1TpdI0Ud17-8che_GFpTz43gQcIh_dSbX/view?usp=sharing
+
+3. TC3 : Sign-in With wrong username
+   https://drive.google.com/file/d/1Zk36jf5h5x_GjpiDuxE9QGmmAWArXmnM/view?usp=sharing 
+   
 
 **Grace Vidia Rosa Panjaitan**
 1. Link record for function Booking Oneway: https://drive.google.com/file/d/1HXTGPU3jMCmToYkqTcWHEN7v6RkphB08/view?usp=drive_link
