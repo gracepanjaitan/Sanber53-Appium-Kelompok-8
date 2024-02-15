@@ -1,11 +1,11 @@
 *** Settings ***
-Library            AppiumLibrary
+Library                 AppiumLibrary
 
 *** Variables ***
 ${REMOTE_URL}           http://localhost:4723/wd/hub
 ${PLATFORM_NAME}        Android
-${PLATFORM_VERSION}     10.0
-${DEVICE_NAME}          11e4f62e
+${PLATFORM_VERSION}     11.0
+${DEVICE_NAME}          emulator-5554
 ${APP_PACKAGE}          com.example.myapplication
 ${APP_ACTIVITY}         com.example.myapplication.MainActivity
 
