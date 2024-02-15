@@ -4,8 +4,8 @@ Library            AppiumLibrary
 *** Variables ***
 ${REMOTE_URL}           http://localhost:4723/wd/hub
 ${PLATFORM_NAME}        Android
-${PLATFORM_VERSION}     13.0
-${DEVICE_NAME}          RRCRB00K2MB
+${PLATFORM_VERSION}     10.0
+${DEVICE_NAME}          11e4f62e
 ${APP_PACKAGE}          com.example.myapplication
 ${APP_ACTIVITY}         com.example.myapplication.MainActivity
 
