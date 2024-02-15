@@ -1,3 +1,0 @@
-input_usn_field: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
-input_password_field: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]
-sign_in_btn_on_login: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
