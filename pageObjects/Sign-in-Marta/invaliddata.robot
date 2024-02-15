@@ -22,7 +22,7 @@ Input Username
     Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]       text= Marta12
 
 Input Password
-    Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]        text= abc123
+    Input Text                         locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]        text= 1234
 
 Click Sign In Button On Login Page
     Click Element                      locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
@@ -42,5 +42,6 @@ Login with Invalid Data
     Click Sign In Button On Login Page
     Verify User Is Fail To Logged In
     Close Flight Application
+
 
 
