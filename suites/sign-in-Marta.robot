@@ -21,3 +21,13 @@ Login with Valid Data
     validdata.Click Sign In Button On Login Page
     Verify User Is Fail To Logged In
     base.Close Flight Application
+
+Login with Wrong username
+    Login with Valid Data
+    base.Open Flight Application
+    validdata.Click Sign In Button On Home Page
+    invaliddata.Input Username
+    validdata.Input Password
+    validdata.Click Sign In Button On Login Page
+    Verify User Is Fail To Logged In
+    base.Close Flight Application
