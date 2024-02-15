@@ -5,19 +5,19 @@ Resource             ../pageObjects/Sign-in-Marta/validdata.robot
 
 *** Test Cases ***
 Login with Invalid Data
-    Open Flight Application
-    Click Sign In Button On Home Page
-    Input Username
+    base.Open Flight Application
+    invaliddata.Click Sign In Button On Home Page
+    invaliddata.Input Username
     invaliddata.Input Password
-    Click Sign In Button On Login Page
+    invaliddata.Click Sign In Button On Login Page
     Verify User Is Fail To Logged In
-    Close Flight Application
+    base.Close Flight Application
 
 Login with Valid Data
-    Open Flight Application
-    Click Sign In Button On Home Page
-    Input Username
+    base.Open Flight Application
+    validdata.Click Sign In Button On Home Page
+    validdata.Input Username
     validdata.Input Password
-    Click Sign In Button On Login Page
+    validdata.Click Sign In Button On Login Page
     Verify User Is Fail To Logged In
-    Close Flight Application
+    base.Close Flight Application

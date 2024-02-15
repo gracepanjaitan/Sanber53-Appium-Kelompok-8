@@ -1,15 +1,16 @@
 *** Settings ***
 Resource        ../pageObjects/HomePage/home-page.robot
-Resource        ../pageObjects/LoginPage/login-page.robot
 Resource        ../pageObjects/SearchPage/search-page.robot
 Resource        ../pageObjects/SearchPage/valid-search-result-page.robot
+Resource        ../pageObjects/Sign-in-Marta/validdata.robot
+
 
 *** Test Cases ***
 Search with Valid Flight Number
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    validdata.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    validdata.Input Password
     Click Sign In Button On Login Page
     Verify User Is Succesfully Logged In
     Click Search Button On Home Page
@@ -18,10 +19,10 @@ Search with Valid Flight Number
     Verify the Flight Data Shown
     Close Flight Application
 Search with Invalid Flight Number "Input with just 2 Characters"
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    validdata.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    validdata.Input Password
     Click Sign In Button On Login Page
     Verify User Is Succesfully Logged In
     Click Search Button On Home Page

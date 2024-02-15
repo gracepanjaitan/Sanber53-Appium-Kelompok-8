@@ -1,12 +1,11 @@
 *** Settings ***
 Resource             ../pageObjects/HomePage/home-page.robot
-Resource             ../pageObjects/LoginPage/login-page.robot
+Resource             ../pageObjects/Sign-in-Marta/invaliddata.robot
 
 *** Test Cases ***
 Login with Invalid Data
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    invaliddata.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    invaliddata.Input Password
     Click Sign In Button On Login Page
-    Click Booking Button 
