@@ -12,5 +12,13 @@ Enter Invalid Flight Number 2 Characters
     Wait Until Page Contains Element    locator=${flight_number_field}
     Input Text    locator=${flight_number_field}   text=11
 
+Without Input Flight Number
+    Wait Until Page Contains Element        locator=${flight_number_field}
+    Input Text                              locator=${flight_number_field}   text=
+
+Input Wrong Flight Number
+    Wait Until Page Contains Element        locator=${flight_number_field}
+    Input Text                              locator=${flight_number_field}   text=DA934
+
 Verify Error Message
     Wait Until Page Contains Element    locator=${error_toaster}
