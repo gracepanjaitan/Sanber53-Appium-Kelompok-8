@@ -12,7 +12,7 @@ Input Username
     Input Text                         locator=${Username_Input_Field}     text=support@ngendigital.com
 
 Input Password
-    Input Text                         locator=${Password_Input_Field}       text= abc123
+    Input Text                         locator=${Password_Input_Field}       text=abc123
 
 Click Sign In Button On Login Page
     Click Element                      locator=${sign_in_button_on_login}

@@ -1,10 +1,9 @@
 *** Settings ***
 Resource             ../pageObjects/HomePage/home-pagemarta.robot
-Resource             ../pageObjects/Sign-in-Page-Marta/validdata.robot
 Resource             ../pageObjects/Sign-in-Page-Marta/invaliddata.robot
 Resource             ../pageObjects/Sign-in-Page-Marta/wrong-username.robot
 Resource             ../pageObjects/Sign-in-Page-Marta/wrong-password.robot
-
+Resource             ../pageObjects/Sign-in-Page-Marta/validdata.robot
 
 
 *** Test Cases ***

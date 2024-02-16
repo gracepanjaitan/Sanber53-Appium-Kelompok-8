@@ -29,17 +29,18 @@ Fitur Search:
 1. TC2 : Search with Empty Flight Number
 2. TC3 : Search with Input Wrong Flight Number
    https://drive.google.com/file/d/1JRj5mASwiTvTNaTPjn6twOTYL3X-zXA1/view?usp=sharing
+   
 
 **Marta Ria Agustina Purba**
+list test case:
+1. Sign-in use invalid data
+2. Sign-in use wrong username
+3. Sign-in use wrong password
+4. Sign-in use valid data
 
-1. TC1 : Sign-in With Invalid data
-   https://drive.google.com/file/d/15BRbNj_DM-Rhn0_6ipB4HNDeIwc_M_s4/view?usp=sharing
+Result Runing for every test case for test scenario Sign-in
+https://drive.google.com/file/d/1G0ykNy93hWq768IVpgwhXhexuuMlyMP8/view?usp=sharing 
 
-2. TC2 : Sign-in With valid data
-   https://drive.google.com/file/d/1TpdI0Ud17-8che_GFpTz43gQcIh_dSbX/view?usp=sharing
-
-3. TC3 : Sign-in With wrong username
-   https://drive.google.com/file/d/1Zk36jf5h5x_GjpiDuxE9QGmmAWArXmnM/view?usp=sharing
 
 **Grace Vidia Rosa Panjaitan**
 
