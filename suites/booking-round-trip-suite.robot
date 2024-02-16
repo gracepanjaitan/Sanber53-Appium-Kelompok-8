@@ -1,14 +1,15 @@
 *** Settings ***
+Resource             ../pageObjects/base/base.robot
 Resource             ../pageObjects/HomePage/home-page.robot
-Resource             ../pageObjects/LoginPage/login-page.robot
+Resource             ../pageObjects/Sign-in-Marta/validdata.robot
 Resource             ../pageObjects/BookingPage/booking-page.robot
 
 *** Test Cases ***   
 Fill All Field With Choose Price Data
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    home-page.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    validdata.Input Password
     Click Sign In Button On Login Page
     Click Booking Button 
     Choose Type of Booking Flight
@@ -24,10 +25,10 @@ Fill All Field With Choose Price Data
     Close Flight Application
 
 Fill All Field and Didn't Choose Price Data
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    home-page.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    validdata.Input Password
     Click Sign In Button On Login Page
     Click Booking Button 
     Choose Type of Booking Flight
@@ -42,10 +43,10 @@ Fill All Field and Didn't Choose Price Data
     Close Flight Application
 
 Didn't Fill All Field and Choose Prices
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    home-page.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    validdata.Input Password
     Click Sign In Button On Login Page
     Click Booking Button
     Choose Type of Booking Flight
@@ -55,10 +56,10 @@ Didn't Fill All Field and Choose Prices
     Close Flight Application
 
 Didn't Fill All Field and Didn't Choose Price
-    Open Flight Application
-    Click Sign In Button On Home Page
+    base.Open Flight Application
+    home-page.Click Sign In Button On Home Page
     Input Username
-    Input Password User
+    validdata.Input Password
     Click Sign In Button On Login Page
     Click Booking Button
     Choose Type of Booking Flight
