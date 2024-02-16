@@ -1,6 +1,7 @@
 *** Settings ***
 Resource            ../base/base.robot
 Variables           ../HomePage/home-locator.yaml
+
 *** Keywords *** 
 Click Sign In Button On Home Page
     Wait Until Page Contains Element    locator=${sign_in_btn}
