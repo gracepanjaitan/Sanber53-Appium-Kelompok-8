@@ -46,3 +46,6 @@ https://drive.google.com/file/d/1G0ykNy93hWq768IVpgwhXhexuuMlyMP8/view?usp=shari
 
 1. Link record for function Booking Oneway: https://drive.google.com/file/d/1HXTGPU3jMCmToYkqTcWHEN7v6RkphB08/view?usp=drive_link
 2. Link record for function Booking Round Trip: https://drive.google.com/file/d/12vyJvJgw8L-IkTT6T6aTBtPUG_xb-K9j/view?usp=drive_link
+
+**Nabilla Safira**
+Record Test Login With Blank Data : https://drive.google.com/drive/folders/1LZ6Mhqzg62cEhfteY-BN1LQTLzNEIUVJ?usp=sharing

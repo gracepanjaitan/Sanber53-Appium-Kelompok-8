@@ -4,7 +4,7 @@ Variables                              SigninLocator-Nabilla.yaml
 
 *** Keywords ***
 Click Sign In Button On Home Page
-    Click Element                      locator=${sign_in_button_on_login}
+    Click Element                      locator=${sign_in_button_on_home}
 
 Input Username
     Wait Until Element Is Visible      locator=${Username_Input_Field}
@@ -14,7 +14,7 @@ Input Password
     Input Text                         locator=${Password_Input_Field}       text=1234  
 
 Click Sign In Button On Login Page
-    Click Element                      locator=${sign_in_button_on_home}
+    Click Element                      locator=${sign_in_btn_on_login}
 Verify User Is Fail To Logged In
     Wait Until Page Contains           text=Invalid username/password
 
